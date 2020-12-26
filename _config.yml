@@ -12,6 +12,12 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 # Tracker
 analytics:
 
+# plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
