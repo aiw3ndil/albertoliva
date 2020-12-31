@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/team/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/team/1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609366583615</updated>
       <workItem from="1609366587699" duration="13432000" />
-      <workItem from="1609421528854" duration="1005000" />
+      <workItem from="1609421528854" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="New home">
       <created>1609380605936</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609422339981</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Footer icons">
+      <created>1609422591354</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609422591354</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +195,7 @@
     <MESSAGE value="Almost cover background" />
     <MESSAGE value="Fix home text" />
     <MESSAGE value="Add name in title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add name in title" />
+    <MESSAGE value="Footer icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer icons" />
   </component>
 </project>
