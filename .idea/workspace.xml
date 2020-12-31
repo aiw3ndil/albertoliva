@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv/_data/data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cv/_data/data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/css/agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609366583615</updated>
-      <workItem from="1609366587699" duration="9647000" />
+      <workItem from="1609366587699" duration="13432000" />
     </task>
     <task id="LOCAL-00001" summary="New home">
       <created>1609380605936</created>
@@ -119,11 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609386846691</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated CV">
+      <created>1609387901666</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609387901666</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -144,6 +162,7 @@
     <MESSAGE value="Renamed downloads" />
     <MESSAGE value="Moved CV" />
     <MESSAGE value="Fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix typo" />
+    <MESSAGE value="Updated CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CV" />
   </component>
 </project>
