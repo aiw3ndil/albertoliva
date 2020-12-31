@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609366583615</updated>
       <workItem from="1609366587699" duration="13432000" />
-      <workItem from="1609421528854" duration="539000" />
+      <workItem from="1609421528854" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="New home">
       <created>1609380605936</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609422014152</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix home text">
+      <created>1609422130862</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609422130862</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +179,7 @@
     <MESSAGE value="Fix typo" />
     <MESSAGE value="Updated CV" />
     <MESSAGE value="Almost cover background" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost cover background" />
+    <MESSAGE value="Fix home text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix home text" />
   </component>
 </project>
