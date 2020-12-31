@@ -864,5 +864,5 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-    background-color: #000;
+    background-color: #27213d;
 }
