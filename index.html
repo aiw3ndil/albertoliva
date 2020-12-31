@@ -2,17 +2,19 @@
 layout: default
 ---
 
+<div class="home">
 
-{% include career-profile.html %}
+  <h1>Posts</h1>
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-{% include experiences.html %}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-{% include projects.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
+</div>
