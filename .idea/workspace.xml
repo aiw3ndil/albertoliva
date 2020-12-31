@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609366583615</updated>
       <workItem from="1609366587699" duration="13432000" />
+      <workItem from="1609421528854" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="New home">
       <created>1609380605936</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609387901666</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Almost cover background">
+      <created>1609422014152</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609422014152</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +160,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New home" />
@@ -163,6 +171,7 @@
     <MESSAGE value="Moved CV" />
     <MESSAGE value="Fix typo" />
     <MESSAGE value="Updated CV" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CV" />
+    <MESSAGE value="Almost cover background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost cover background" />
   </component>
 </project>
