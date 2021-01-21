@@ -1,0 +1,109 @@
+Index: Gemfile.lock
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>GEM\r\n  remote: https://rubygems.org/\r\n  specs:\r\n    addressable (2.7.0)\r\n      public_suffix (>= 2.0.2, < 5.0)\r\n    colorator (1.1.0)\r\n    concurrent-ruby (1.1.7)\r\n    em-websocket (0.5.2)\r\n      eventmachine (>= 0.12.9)\r\n      http_parser.rb (~> 0.6.0)\r\n    eventmachine (1.2.7-x64-mingw32)\r\n    ffi (1.14.2-x64-mingw32)\r\n    forwardable-extended (2.6.0)\r\n    http_parser.rb (0.6.0)\r\n    i18n (1.8.5)\r\n      concurrent-ruby (~> 1.0)\r\n    jekyll (4.2.0)\r\n      addressable (~> 2.4)\r\n      colorator (~> 1.0)\r\n      em-websocket (~> 0.5)\r\n      i18n (~> 1.0)\r\n      jekyll-sass-converter (~> 2.0)\r\n      jekyll-watch (~> 2.0)\r\n      kramdown (~> 2.3)\r\n      kramdown-parser-gfm (~> 1.0)\r\n      liquid (~> 4.0)\r\n      mercenary (~> 0.4.0)\r\n      pathutil (~> 0.9)\r\n      rouge (~> 3.0)\r\n      safe_yaml (~> 1.0)\r\n      terminal-table (~> 2.0)\r\n    jekyll-paginate (1.1.0)\r\n    jekyll-sass-converter (2.1.0)\r\n      sassc (> 2.0.1, < 3.0)\r\n    jekyll-seo-tag (2.7.1)\r\n      jekyll (>= 3.8, < 5.0)\r\n    jekyll-sitemap (1.4.0)\r\n      jekyll (>= 3.7, < 5.0)\r\n    jekyll-watch (2.2.1)\r\n      listen (~> 3.0)\r\n    kramdown (2.3.0)\r\n      rexml\r\n    kramdown-parser-gfm (1.1.0)\r\n      kramdown (~> 2.0)\r\n    liquid (4.0.3)\r\n    listen (3.3.3)\r\n      rb-fsevent (~> 0.10, >= 0.10.3)\r\n      rb-inotify (~> 0.9, >= 0.9.10)\r\n    mercenary (0.4.0)\r\n    pathutil (0.16.2)\r\n      forwardable-extended (~> 2.6)\r\n    public_suffix (4.0.6)\r\n    rb-fsevent (0.10.4)\r\n    rb-inotify (0.10.1)\r\n      ffi (~> 1.0)\r\n    rexml (3.2.4)\r\n    rouge (3.26.0)\r\n    safe_yaml (1.0.5)\r\n    sassc (2.4.0-x64-mingw32)\r\n      ffi (~> 1.9)\r\n    terminal-table (2.0.0)\r\n      unicode-display_width (~> 1.1, >= 1.1.1)\r\n    unicode-display_width (1.7.0)\r\n\r\nPLATFORMS\r\n  x64-mingw32\r\n\r\nDEPENDENCIES\r\n  jekyll\r\n  jekyll-paginate\r\n  jekyll-seo-tag\r\n  jekyll-sitemap\r\n\r\nBUNDLED WITH\r\n   2.2.3\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Gemfile.lock b/Gemfile.lock
+--- a/Gemfile.lock	(revision 345f42282ad81c766d549bb2b9bcbc8de6e02704)
++++ b/Gemfile.lock	(date 1611158038638)
+@@ -8,7 +8,9 @@
+     em-websocket (0.5.2)
+       eventmachine (>= 0.12.9)
+       http_parser.rb (~> 0.6.0)
++    eventmachine (1.2.7)
+     eventmachine (1.2.7-x64-mingw32)
++    ffi (1.14.2)
+     ffi (1.14.2-x64-mingw32)
+     forwardable-extended (2.6.0)
+     http_parser.rb (0.6.0)
+@@ -56,6 +58,8 @@
+     rexml (3.2.4)
+     rouge (3.26.0)
+     safe_yaml (1.0.5)
++    sassc (2.4.0)
++      ffi (~> 1.9)
+     sassc (2.4.0-x64-mingw32)
+       ffi (~> 1.9)
+     terminal-table (2.0.0)
+@@ -63,6 +67,7 @@
+     unicode-display_width (1.7.0)
+ 
+ PLATFORMS
++  ruby
+   x64-mingw32
+ 
+ DEPENDENCIES
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"005ee77c-e2e6-4505-8db0-c63210d99052\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/_includes/css/agency.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_includes/css/agency.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/_includes/header.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/_includes/header.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1mOZPhww2iFZ0Ge6yD2NgHDWtnG\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\alber\\RubymineProjects\\albertoliva\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RubyModuleManagerSettings\">\r\n    <option name=\"blackListedRootsPaths\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/cv\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SpringUtil\" SPRING_PRE_LOADER_OPTION=\"true\" RAKE_SPRING_PRE_LOADER_OPTION=\"true\" RAILS_SPRING_PRE_LOADER_OPTION=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"005ee77c-e2e6-4505-8db0-c63210d99052\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1609366583615</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1609366583615</updated>\r\n      <workItem from=\"1609366587699\" duration=\"13432000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"New home\">\r\n      <created>1609380605936</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609380605936</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"New home\">\r\n      <created>1609381451860</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609381451861</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"New home\">\r\n      <created>1609382751733</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609382751733</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Add CV link\">\r\n      <created>1609382890317</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609382890317</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Add Title to website\">\r\n      <created>1609382991130</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609382991130</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Added CV\">\r\n      <created>1609384850022</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609384850022</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Added CV\">\r\n      <created>1609386011136</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609386011136</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Renamed downloads\">\r\n      <created>1609386405989</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609386405989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Moved CV\">\r\n      <created>1609386629376</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609386629376</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Fix typo\">\r\n      <created>1609386846691</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609386846691</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Updated CV\">\r\n      <created>1609387901666</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609387901666</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.History.Properties\">\r\n    <option name=\"COLUMN_ID_ORDER\">\r\n      <list>\r\n        <option value=\"Default.Root\" />\r\n        <option value=\"Default.Author\" />\r\n        <option value=\"Default.Date\" />\r\n        <option value=\"Default.Subject\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"New home\" />\r\n    <MESSAGE value=\"Add CV link\" />\r\n    <MESSAGE value=\"Add Title to website\" />\r\n    <MESSAGE value=\"Added CV\" />\r\n    <MESSAGE value=\"Renamed downloads\" />\r\n    <MESSAGE value=\"Moved CV\" />\r\n    <MESSAGE value=\"Fix typo\" />\r\n    <MESSAGE value=\"Updated CV\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Updated CV\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 345f42282ad81c766d549bb2b9bcbc8de6e02704)
++++ b/.idea/workspace.xml	(date 1611160009903)
+@@ -3,8 +3,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_includes/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/css/agency.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -26,6 +25,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_package_manager_path" value="npm" />
++    <property name="settings.editor.selected.configurable" value="terminal" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+@@ -41,6 +41,9 @@
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
++  <component name="SvnConfiguration">
++    <configuration>C:\Users\alber\AppData\Roaming\Subversion</configuration>
++  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="005ee77c-e2e6-4505-8db0-c63210d99052" name="Default Changelist" comment="" />
+@@ -49,6 +52,14 @@
+       <option name="presentableId" value="Default" />
+       <updated>1609366583615</updated>
+       <workItem from="1609366587699" duration="13432000" />
++      <workItem from="1610043000552" duration="439000" />
++      <workItem from="1610043494760" duration="535000" />
++      <workItem from="1611155552261" duration="7000" />
++      <workItem from="1611155938268" duration="163000" />
++      <workItem from="1611156111804" duration="383000" />
++      <workItem from="1611156507099" duration="9000" />
++      <workItem from="1611156549357" duration="118000" />
++      <workItem from="1611156677215" duration="1713000" />
+     </task>
+     <task id="LOCAL-00001" summary="New home">
+       <created>1609380605936</created>
+@@ -130,6 +141,10 @@
+     <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
++  <component name="TerminalProjectNonSharedOptionsProvider">
++    <option name="shellPath" value="debian.exe" />
++    <option name="startingDirectory" value="\\wsl$\Debian\mnt\c" />
++  </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+@@ -153,6 +168,7 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="New home" />
