@@ -727,6 +727,7 @@ footer {
 }
 
 footer span.copyright {
+    color: #2b669a;
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
