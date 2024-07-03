@@ -1,29 +1,22 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "install libssl-dev 1.1.1l-1 on ubuntu 1.4"
 date:   2024-07-03 20:55:06 +0300
-categories: jekyll update
+categories: linux
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+```
+$ sudo apt install build-essential
+$ cd ~/Downloads
+$ wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz
+$ tar zxvf openssl-1.1.1g.tar.gz
+$ cd openssl-1.1.1g
+$ ./config --prefix=$HOME/.openssl/openssl-1.1.1g --openssldir=$HOME/.openssl/openssl-1.1.1g
+$ make
+$ make test # you might get a few tests failing but just ignore
+$ make install
+$ rm -rf ~/.openssl/openssl-1.1.1g/certs
+$ ln -s /etc/ssl/certs ~/.openssl/openssl-1.1.1g/certs
+$ cd ~
+# let us install older rubies now by using RVM. Hurray!
+$ rvm install ruby-3.0.4 --with-openssl-dir=$HOME/.openssl/openssl-1.1.1g # replace ruby-x.x.x to install other older versions
+```
