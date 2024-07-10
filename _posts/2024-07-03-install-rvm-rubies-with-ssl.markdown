@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "install libssl-dev 1.1.1l-1 on ubuntu 1.4"
+title:  "install rvm rubies with libssl-dev 1.1.1l-1 on ubuntu 1.4"
 date:   2024-07-03 20:55:06 +0300
-categories: linux
+categories: linux ubuntu rvm
 ---
 ```
 $ sudo apt install build-essential
