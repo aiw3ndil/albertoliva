@@ -4,8 +4,6 @@ title:  "Comenzando una nueva etapa"
 date:   2025-11-20 15:50:45 +0200
 categories: personal
 ---
-Comenzando una nueva etapa: viviendo en Finlandia
-
 ¡Hola a todos!
 
 Hoy escribo la primera entrada de este blog, un espacio que quiero dedicar a compartir experiencias, aprendizajes y reflexiones personales mientras atravieso una etapa completamente nueva en mi vida: vivir en Finlandia.

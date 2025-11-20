@@ -21,6 +21,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+		<div>{{ post.content | markdownify }}</div>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
