@@ -4,6 +4,7 @@ title:  "Nuevo hogar"
 date:   2025-11-21 10:36:11 +0200
 categories: personal
 ---
+![Nuevo hogar](/assets/images/nuevo-hogar.jpg)
 
 Hoy quiero compartir con vosotros un momento muy especial en mi vida: ¡mi nueva etapa en Finlandia ha comenzado oficialmente!
 
