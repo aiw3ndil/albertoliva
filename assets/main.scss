@@ -3,3 +3,299 @@
 ---
 
 @import "minima";
+
+/* Importar fuentes estilo periódico */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Merriweather:wght@300;400;700&family=Lora:wght@400;600&display=swap');
+
+/* Variables de color estilo periódico */
+:root {
+  --newspaper-bg: #f9f7f1;
+  --newspaper-text: #1a1a1a;
+  --newspaper-accent: #c9a961;
+  --newspaper-border: #d4d4d4;
+  --newspaper-light: #fefefe;
+}
+
+/* Estilos generales del body */
+body {
+  background-color: var(--newspaper-bg);
+  color: var(--newspaper-text);
+  font-family: 'Merriweather', Georgia, serif;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+/* Header estilo periódico */
+.site-header {
+  border-top: 5px solid var(--newspaper-accent);
+  border-bottom: 3px double var(--newspaper-border);
+  background-color: var(--newspaper-light);
+  padding: 30px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px !important;
+  font-weight: 900 !important;
+  letter-spacing: 2px;
+  color: var(--newspaper-text) !important;
+  text-transform: uppercase;
+  border: none !important;
+  
+  &:hover {
+    text-decoration: none !important;
+    color: var(--newspaper-accent) !important;
+  }
+}
+
+.site-nav {
+  line-height: 2.5;
+  
+  .page-link {
+    color: var(--newspaper-text);
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    
+    &:hover {
+      color: var(--newspaper-accent);
+      text-decoration: none;
+      border-bottom: 2px solid var(--newspaper-accent);
+    }
+  }
+}
+
+/* Contenido principal */
+.page-content {
+  background-color: var(--newspaper-light);
+  padding: 40px 0;
+}
+
+.wrapper {
+  max-width: 900px;
+  border-left: 1px solid var(--newspaper-border);
+  border-right: 1px solid var(--newspaper-border);
+  padding: 0 60px;
+  background-color: var(--newspaper-light);
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+/* Títulos estilo periódico */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: var(--newspaper-text);
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.post-title {
+  font-size: 42px !important;
+  line-height: 1.3 !important;
+  font-weight: 900 !important;
+  border-bottom: 3px solid var(--newspaper-accent);
+  padding: 25px 0 15px 0;
+  margin-bottom: 10px !important;
+  letter-spacing: -0.5px;
+}
+
+.post-meta {
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid var(--newspaper-border);
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+/* Contenido del post */
+.post-content {
+  h2 {
+    font-size: 32px;
+    border-left: 4px solid var(--newspaper-accent);
+    padding-left: 20px;
+    margin-top: 2em;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 1.5em;
+    hyphens: auto;
+  }
+  
+  /* Primer párrafo estilo drop cap */
+  p:first-of-type::first-letter {
+    font-size: 4em;
+    line-height: 0.8;
+    float: left;
+    margin: 0.1em 0.1em 0 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: var(--newspaper-accent);
+  }
+  
+  ul, ol {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    
+    li {
+      margin-bottom: 0.8em;
+    }
+  }
+  
+  strong {
+    font-weight: 700;
+    color: var(--newspaper-text);
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  blockquote {
+    border-left: 4px solid var(--newspaper-accent);
+    padding-left: 20px;
+    margin: 2em 0;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #444;
+    background-color: var(--newspaper-bg);
+    padding: 20px 20px 20px 25px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2em auto;
+    border: 1px solid var(--newspaper-border);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  code {
+    font-family: 'Courier New', monospace;
+    background-color: var(--newspaper-bg);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  pre {
+    background-color: var(--newspaper-bg);
+    border: 1px solid var(--newspaper-border);
+    padding: 15px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+}
+
+/* Lista de posts en home */
+.post-list {
+  list-style: none;
+  margin-left: 0;
+  
+  > li {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid var(--newspaper-border);
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.post-list-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid var(--newspaper-accent);
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.post-link {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--newspaper-text);
+  
+  &:hover {
+    color: var(--newspaper-accent);
+    text-decoration: none;
+  }
+}
+
+/* Footer estilo periódico */
+.site-footer {
+  border-top: 3px double var(--newspaper-border);
+  background-color: var(--newspaper-light);
+  padding: 40px 0;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.footer-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Categorías/Tags estilo periódico */
+.categories, .tags {
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0 30px;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .site-title {
+    font-size: 36px !important;
+  }
+  
+  .post-title {
+    font-size: 32px !important;
+  }
+  
+  .post-content p:first-of-type::first-letter {
+    font-size: 3em;
+  }
+}
+
+/* Efecto de columnas para posts largos (opcional) */
+@media screen and (min-width: 1200px) {
+  .post-content-columns {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid var(--newspaper-border);
+  }
+}
