@@ -86,5 +86,3 @@ La clave está en:
 - **Comprar ropa de invierno en rebajas o segunda mano** (esencial y puede ser caro)
 
 Sí, algunos productos son más caros que en España, pero la calidad de vida, los servicios públicos y la tranquilidad que ofrece este país compensan con creces cualquier diferencia de precio.
-
-¿Estás pensando en mudarte a Finlandia? Espero que estos números te ayuden a planificarte mejor. Si tienes dudas o quieres saber más sobre algún gasto concreto, déjame un comentario.
