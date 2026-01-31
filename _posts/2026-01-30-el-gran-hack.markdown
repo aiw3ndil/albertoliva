@@ -4,6 +4,7 @@ title: "El Gran Hack: Cómo piratear tu presente para recuperar tu vida"
 date: 2026-01-30 9:30:00 +0200
 categories:
 ---
+![The Great Hack](/assets/images/great-hack.jpg)
 
 Vivimos en una cultura de la interrupción. El sistema no quiere tu bienestar; quiere tu atención, porque una mente distraída es una mente que consume. Nos han enseñado a ser usuarios de nuestra propia existencia, navegando por interfaces prediseñadas que nos dicen qué desear y a qué temer.
 
