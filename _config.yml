@@ -32,7 +32,6 @@ lang: es_ES
 
 # SEO settings for jekyll-seo-tag
 seo:
-  pagination_title: "Página :page"
 
 # Build settings
 theme: minima
