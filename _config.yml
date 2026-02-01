@@ -30,11 +30,23 @@ github_username:  aiw3ndil
 google_analytics: G-M30YK111F6
 lang: es_ES
 
+# SEO settings for jekyll-seo-tag
+seo:
+  pagination_title: "Página :page"
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

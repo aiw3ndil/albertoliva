@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Qué es Chainlink y por qué me interesa a largo plazo
+date: 2026-12-15 9:30:00 +0200
+categories:
 ---
-
 En el cambiante mundo de las criptomonedas y la tecnología blockchain, constantemente surgen proyectos innovadores que buscan resolver problemas complejos. Uno de los más fascinantes y con mayor potencial a largo plazo es, en mi opinión, Chainlink (LINK).
 
 Pero, ¿qué es exactamente Chainlink y por qué debería interesarnos?

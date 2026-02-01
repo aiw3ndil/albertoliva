@@ -3,16 +3,14 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+
 
   {{ content }}
 
-  {%- if site.posts.size > 0 -%}
+  {%- if paginator.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -21,23 +19,31 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-		<div>{{ post.content | markdownify }}</div>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        {{ post.content }}
       </li>
       {%- endfor -%}
     </ul>
-  {%- endif -%}
 
-  <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Anterior</a>
-  {% endif %}
-  
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">Siguiente</a>
-  {% endif %}
-</div>
+    <div class="pagination">
+      {%- if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
+          &laquo; Recientes
+        </a>
+      {%- else %}
+        <span class="previous">&laquo; Recientes</span>
+      {%- endif %}
+      <span class="page_number ">
+        Página: {{ paginator.page }} de {{ paginator.total_pages }}
+      </span>
+      {%- if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next">
+          Antiguos &raquo;
+        </a>
+      {%- else %}
+        <span class="next ">Antiguos &raquo;</span>
+      {%- endif %}
+    </div>
+
+  {%- endif -%}
 
 </div>
