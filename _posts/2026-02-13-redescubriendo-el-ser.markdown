@@ -7,6 +7,8 @@ date: 2026-02-13 00:00:00 +0100
 
 Nos encontramos en una búsqueda perpetua. Buscamos la felicidad, el propósito, el éxito, la paz interior. Nos lanzamos a un viaje sin fin hacia un destino que creemos externo a nosotros, sin darnos cuenta de que la respuesta más fundamental ya reside en nuestro interior. La pregunta no es cómo encontrar el ser, sino ¿por qué hemos perdido la conciencia de él?
 
+<!--more-->
+
 **Nada hay que buscar y nada hay para encontrar.** Esta simple pero profunda verdad es el punto de partida. Vosotros sabéis que sois. No albergáis duda alguna sobre vuestra propia existencia en este preciso instante. Es una certeza tan intrínseca y fundamental que a menudo la pasamos por alto, ahogada por el ruido de nuestros pensamientos, deseos y miedos. Existir no es un logro; es el estado natural.
 
 El verdadero desafío, entonces, no es la búsqueda, sino el mantenimiento. **Lo único que debéis hacer es mantener la sensación de ser.** Es un acto de anclaje en el presente, un retorno constante a la conciencia de "yo soy" que precede a cualquier otra etiqueta o definición: "yo soy un profesional", "yo soy padre", "yo soy feliz", "yo soy triste". Antes de todo eso, simplemente, "yo soy".

@@ -23,6 +23,7 @@ email: albert.oliva@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog personal donde comparto mi vida en Finlandia, mis experiencias como desarrollador web y mis reflexiones 
   sobre tecnología, salud, aprendizaje de idiomas y crecimiento personal.
+excerpt_separator: "<!--more-->"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: aiw3ndil

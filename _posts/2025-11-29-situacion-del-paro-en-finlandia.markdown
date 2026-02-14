@@ -7,6 +7,8 @@ categories: finlandia vida-laboral
 
 Finlandia es conocida por su excelente sistema de bienestar social, educación de calidad y economía estable. Sin embargo, como muchos países europeos, también enfrenta desafíos relacionados con el desempleo. En esta entrada, quiero compartir lo que he aprendido sobre la situación actual del mercado laboral finlandés y cómo el país está abordando este tema.
 
+<!--more-->
+
 ## La situación actual
 
 A finales de noviembre de 2024, Finlandia tiene una **tasa de desempleo del 7,8%**, lo que equivale a aproximadamente 224.000 personas desempleadas. Esta cifra se mantiene relativamente estable en comparación con meses anteriores, aunque ha experimentado fluctuaciones debido a factores económicos globales y cambios en sectores específicos. 

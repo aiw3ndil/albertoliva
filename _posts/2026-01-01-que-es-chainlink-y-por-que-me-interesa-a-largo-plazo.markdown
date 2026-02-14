@@ -6,6 +6,8 @@ categories:
 ---
 En el cambiante mundo de las criptomonedas y la tecnología blockchain, constantemente surgen proyectos innovadores que buscan resolver problemas complejos. Uno de los más fascinantes y con mayor potencial a largo plazo es, en mi opinión, Chainlink (LINK).
 
+<!--more-->
+
 Pero, ¿qué es exactamente Chainlink y por qué debería interesarnos?
 
 ### El problema de los "Oráculos" en Blockchain

@@ -8,6 +8,8 @@ categories: integracion
 
 Hoy tuvimos la oportunidad de visitar la biblioteca Oodi con nuestro grupo del curso, y debo decir que fue una experiencia fascinante. Oodi no es solo una biblioteca, es un espacio vivo y moderno que combina lectura, tecnología y cultura bajo un mismo techo.
 
+<!--more-->
+
 Desde el momento en que entramos, lo que más impresiona es su arquitectura: grandes ventanales que dejan entrar luz natural, espacios abiertos y zonas de descanso que invitan a quedarse y explorar. La biblioteca cuenta con más de 100.000 libros, pero lo que realmente la hace especial son sus servicios modernos y accesibles para todos.
 
 Entre las cosas que más nos llamaron la atención están:

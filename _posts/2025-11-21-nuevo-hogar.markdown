@@ -8,6 +8,8 @@ categories: personal
 
 Hoy quiero compartir con vosotros un momento muy especial en mi vida: ¡mi nueva etapa en Finlandia ha comenzado oficialmente!
 
+<!--more-->
+
 Ya estoy registrado en el sistema de seguridad social finlandés, lo que me da tranquilidad y respaldo mientras me adapto a este país. Contar con este apoyo es fundamental para sentirme seguro y poder concentrarme en lo más importante: aprender, crecer y construir una vida aquí.
 
 Y eso no es todo: ¡tengo un nuevo apartamento gracias a HEKA! Para quienes no lo conozcan, HEKA es la principal empresa de vivienda social en Helsinki y ofrece apartamentos accesibles a personas que, como yo, están empezando una nueva vida aquí. Tener un hogar propio me da estabilidad y un lugar donde realmente puedo sentirme en casa mientras avanzo en este camino.

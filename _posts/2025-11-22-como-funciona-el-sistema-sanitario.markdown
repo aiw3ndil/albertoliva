@@ -6,6 +6,8 @@ categories: sistema sanitario
 ---
 Una de las cosas que más sorprende cuando llegas a Finlandia es lo **organizado, claro y accesible** que es su sistema sanitario y social. No es perfecto, pero está diseñado para que cualquier persona —incluyendo inmigrantes que están en proceso de integración— pueda recibir atención médica y apoyo social cuando lo necesita.
 
+<!--more-->
+
 En esta entrada cuento cómo funciona, qué esperar y cómo se utiliza en la vida real.
 
 ## Atención sanitaria pública: Terveyskeskus

@@ -8,6 +8,8 @@ Mi Experiencia con el Curso de Integración en Finlandia
 
 Mudarse a un nuevo país siempre trae desafíos, desde adaptarse a la cultura hasta aprender el idioma. En Finlandia, los recién llegados tienen la oportunidad de participar en cursos de integración, diseñados para facilitar esta transición y ayudar a establecerse de manera efectiva en la sociedad finlandesa.
 
+<!--more-->
+
 ##¿Qué es un Curso de Integración?
 
 Un curso de integración (kotoutumiskoulutus) es un programa educativo organizado por instituciones como Spring House Oy y coordinado junto con la Oficina de Empleo de Finlandia. Su objetivo principal es:

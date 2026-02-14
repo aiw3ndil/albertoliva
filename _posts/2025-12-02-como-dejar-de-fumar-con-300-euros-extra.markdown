@@ -6,6 +6,8 @@ categories: salud finanzas
 ---
 Hace ya un tiempo que tomé una de las mejores decisiones de mi vida: dejar de fumar. No solo se trata de una cuestión de salud, sino también de un cambio radical en mi economía personal. Y es que, echando cuentas, me he dado cuenta de que **ahora tengo unos 300€ extra cada mes**.
 
+<!--more-->
+
 ## El coste real del tabaco
 
 Cuando fumaba, nunca me paraba a calcular cuánto gastaba realmente. Un paquete aquí, otro allá... parecía poco dinero en el momento. Pero la realidad es demoledora:

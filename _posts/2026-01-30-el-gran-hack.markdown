@@ -8,6 +8,8 @@ categories:
 
 Vivimos en una cultura de la interrupción. El sistema no quiere tu bienestar; quiere tu atención, porque una mente distraída es una mente que consume. Nos han enseñado a ser usuarios de nuestra propia existencia, navegando por interfaces prediseñadas que nos dicen qué desear y a qué temer.
 
+<!--more-->
+
 Pero existe una salida. No se trata de huir a una montaña, sino de convertirte en un hacker del momento presente.
 ### Descifrando el código de la distracción
 

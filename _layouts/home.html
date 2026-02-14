@@ -19,7 +19,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {{ post.content }}
+        {{ post.excerpt }}
+        <a href="{{ post.url | relative_url }}" class="read-more-link">Leer más &raquo;</a>
       </li>
       {%- endfor -%}
     </ul>

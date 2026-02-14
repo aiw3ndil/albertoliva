@@ -6,6 +6,8 @@ categories: finlandia finanzas vida
 ---
 Una de las preguntas que más me hacían antes de mudarme a Finlandia era: "¿pero es muy caro vivir allí?". Ahora, después de varios años viviendo en Helsinki, puedo responder con datos reales. Voy a compartir mis gastos mensuales para que tengas una idea clara de lo que realmente cuesta vivir aquí.
 
+<!--more-->
+
 ## Mi desglose mensual de gastos
 
 Estos son mis gastos fijos y variables cada mes:
