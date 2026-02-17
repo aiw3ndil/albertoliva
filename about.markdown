@@ -3,6 +3,7 @@ layout: page
 title: Acerca de mí
 permalink: /about/
 ---
+![profile picture](/assets/images/profile.png)
 ¡Hola! Soy Albert, desarrollador web, curioso incansable y alguien que decidió comenzar una nueva etapa de su vida en Finlandia.
 
 Llevo muchos años trabajando en tecnología, especialmente en desarrollo web con Ruby on Rails, creando proyectos personales y profesionales que me han acompañado en distintas fases de mi vida. Me gusta aprender, construir y mejorar cosas, ya sean aplicaciones, ideas o hábitos.
