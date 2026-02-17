@@ -64,9 +64,9 @@ Estos son algunos proyectos que he empezado como hobby.
     </a>
   </div>
   <div class="project-details">
-    <h3><a href="https://jombo.es" target="_blank" rel="noopener noreferrer">Jombo</a></h3>
+    <h3><a href="https://jombo.fi" target="_blank" rel="noopener noreferrer">Jombo</a></h3>
     <ul>
-      <li>Evolución de la marca Jombo, actualmente centrada en el mercado finlandés.</li>
+      <li>Plataforma de carpooling, actualmente centrada en el mercado finlandés.</li>
       <li>Re-arquitectura del sistema de un monolito a una API robusta para mejorar la escalabilidad y el rendimiento.</li>
     </ul>
   </div>
