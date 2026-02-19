@@ -49,10 +49,10 @@ Estos son algunos proyectos que he empezado como hobby.
   </div>
   <div class="project-details">
     <h3><a href="https://truek.xyz" target="_blank" rel="noopener noreferrer">Truek.xyz</a></h3>
-    <p><em>En curso</em></p>
+    <p>Plataforma de intercambio de objetos construida con Ruby (API) y Next.js.</p>
     <ul>
-      <li>Desarrollo de una plataforma de intercambio de bienes y servicios construida con Ruby on Rails.</li>
-      <li>Implementación de la lógica de intercambio, perfiles de usuario y sistemas de búsqueda avanzada.</li>
+      <li>Implementación de lógica de intercambio, perfiles de usuario y sistemas de búsqueda avanzada.</li>
+      <li>Desarrollo ágil mediante Vibe Coding y despliegue automatizado con Coolify.</li>
     </ul>
   </div>
 </div>
@@ -64,10 +64,11 @@ Estos son algunos proyectos que he empezado como hobby.
     </a>
   </div>
   <div class="project-details">
-    <h3><a href="https://jombo.fi" target="_blank" rel="noopener noreferrer">Jombo</a></h3>
+    <h3><a href="https://jombo.es" target="_blank" rel="noopener noreferrer">Jombo.es</a></h3>
+    <p>Carpooling ético sin comisiones.</p>
     <ul>
-      <li>Plataforma de carpooling, actualmente centrada en el mercado finlandés.</li>
-      <li>Re-arquitectura del sistema de un monolito a una API robusta para mejorar la escalabilidad y el rendimiento.</li>
+      <li>Plataforma de viaje compartido para facilitar el transporte comunitario de forma directa.</li>
+      <li>Arquitectura basada en API de Ruby y frontend en Next.js alojado en Vercel.</li>
     </ul>
   </div>
 </div>
@@ -80,10 +81,10 @@ Estos son algunos proyectos que he empezado como hobby.
   </div>
   <div class="project-details">
     <h3><a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">Enkimail</a></h3>
+    <p>Procesador de colas para email marketing enfocado en la simplicidad y entregabilidad.</p>
     <ul>
-      <li>Desarrollo de una plataforma de email marketing de extremo a extremo centrada en la simplicidad, el rendimiento y la alta entregabilidad.</li>
-      <li>Construcción de flujos de trabajo de campañas automatizadas y sistemas de gestión de listas de suscriptores a gran escala.</li>
-      <li>Optimización de la infraestructura del servidor de correo y los protocolos de autenticación (SPF, DKIM, DMARC) para garantizar la máxima colocación en la bandeja de entrada.</li>
+      <li>Gestión de campañas automatizadas y sistemas de listas de suscriptores.</li>
+      <li>Infraestructura propia con Postfix en Docker y optimización de protocolos de autenticación para máxima llegada a bandeja de entrada.</li>
     </ul>
   </div>
 </div>
