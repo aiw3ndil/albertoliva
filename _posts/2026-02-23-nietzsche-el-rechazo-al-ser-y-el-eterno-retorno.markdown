@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nietzsche: El rechazo al «ser» y el Eterno Retorno"
-date: 2026-02-22 12:00:00 +0200
+date: 2026-02-23 12:00:00 +0200
 categories: [filosofia, reflexion, nietzsche]
 ---
 
