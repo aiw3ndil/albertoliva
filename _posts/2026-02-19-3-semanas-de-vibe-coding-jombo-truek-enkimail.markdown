@@ -31,5 +31,3 @@ El proyecto de **Enkimail** ha sido el más exigente a nivel de infraestructura.
 Cualquiera que haya trabajado con email marketing sabe que la reputación de la IP lo es todo. He tenido muchísima suerte al encontrar una IP limpia que no figura en ninguna lista negra, lo cual es fundamental para asegurar que los correos lleguen a la bandeja de entrada y no a spam desde el primer día.
 
 Estas tres semanas han sido un recordatorio de que, con las herramientas adecuadas y el enfoque correcto, la distancia entre "tengo una idea" y "tengo un producto" nunca ha sido tan corta.
-
-¿Qué os parecen los proyectos? ¡Os leo en los comentarios!
