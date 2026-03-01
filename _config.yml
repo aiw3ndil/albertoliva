@@ -29,6 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: aiw3ndil
 github_username:  aiw3ndil
 google_analytics: G-M30YK111F6
+disqus:
+  shortname: albertoliva
 lang: es_ES
 
 # SEO settings for jekyll-seo-tag
