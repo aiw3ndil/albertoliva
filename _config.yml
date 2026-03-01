@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   sobre tecnología, salud, aprendizaje de idiomas y crecimiento personal.
 excerpt_separator: "<!--more-->"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://albertoliva.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: aiw3ndil
 github_username:  aiw3ndil
 google_analytics: G-M30YK111F6
