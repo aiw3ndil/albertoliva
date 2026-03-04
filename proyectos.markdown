@@ -80,7 +80,7 @@ Estos son algunos proyectos que he empezado como hobby.
     </a>
   </div>
   <div class="project-details">
-    <h3><a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">Enkimail</a></h3>
+    <h3><a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">Enkimail.com</a></h3>
     <p>Procesador de colas para email marketing enfocado en la simplicidad y entregabilidad.</p>
     <ul>
       <li>Gestión de campañas automatizadas y sistemas de listas de suscriptores.</li>
