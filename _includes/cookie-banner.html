@@ -1,0 +1,51 @@
+<div id="cookie-banner" style="display: none; position: fixed; bottom: 0; width: 100%; background: #333; color: #fff; padding: 20px; text-align: center; z-index: 1000; box-shadow: 0 -2px 10px rgba(0,0,0,0.3);">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+        <p style="margin: 0 20px 0 0; font-size: 14px; flex-grow: 1; text-align: left;">
+            Utilizamos cookies propias y de terceros para mejorar su experiencia y analizar el tráfico (Google Analytics). 
+            Al continuar navegando, consideramos que acepta su uso. Puede consultar nuestra 
+            <a href="{{ "/politica-de-privacidad/" | relative_url }}" style="color: #4da6ff; text-decoration: underline;">Política de Privacidad</a>.
+        </p>
+        <div style="display: flex; gap: 10px;">
+            <button id="accept-cookies" style="background: #4da6ff; color: white; border: none; padding: 8px 20px; cursor: pointer; border-radius: 4px; font-weight: bold;">
+                Aceptar
+            </button>
+            <button id="reject-cookies" style="background: transparent; color: #ccc; border: 1px solid #666; padding: 8px 15px; cursor: pointer; border-radius: 4px;">
+                Rechazar
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        const banner = document.getElementById('cookie-banner');
+        const acceptBtn = document.getElementById('accept-cookies');
+        const rejectBtn = document.getElementById('reject-cookies');
+        const cookieName = 'cookie_consent_accepted';
+
+        function hideBanner() {
+            banner.style.display = 'none';
+        }
+
+        function setConsent(value) {
+            const expires = new Date();
+            expires.setFullYear(expires.getFullYear() + 1);
+            document.cookie = cookieName + '=' + value + '; expires=' + expires.toUTCString() + '; path=/';
+            hideBanner();
+        }
+
+        // Mostrar banner si no hay decisión previa
+        if (!document.cookie.split('; ').find(row => row.startsWith(cookieName + '='))) {
+            banner.style.display = 'block';
+        }
+
+        acceptBtn.addEventListener('click', function() {
+            setConsent('true');
+            // Aquí se podrían cargar scripts adicionales de tracking si fuera necesario
+        });
+
+        rejectBtn.addEventListener('click', function() {
+            setConsent('false');
+        });
+    })();
+</script>
