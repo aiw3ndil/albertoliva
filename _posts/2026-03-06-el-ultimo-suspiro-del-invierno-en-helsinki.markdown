@@ -4,6 +4,7 @@ title: "El último suspiro del invierno: Resistirse al deshielo en Helsinki"
 date: 2026-03-06 09:00:00 +0200
 categories: [reflexion, helsinki, invierno]
 ---
+![Deshielo](/assets/images/deshielo.jpg)
 
 Hay un sonido particular en Helsinki estos días: el goteo incesante de los carámbanos que se rinden al sol y el crujido del hielo que empieza a ceder en las aceras. Para muchos, es el anuncio de la esperanza; para mí, es una despedida que no quiero aceptar.
 
