@@ -50,6 +50,23 @@ Estos son algunos proyectos que he empezado como hobby.
 
 <div class="project-container">
   <div class="project-image">
+    <a href="https://enkihost.com" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/images/enkimail-logo.png" alt="Logo de Enkihost" style="opacity: 0.5; filter: grayscale(100%)">
+    </a>
+  </div>
+  <div class="project-details">
+    <h3><a href="https://enkihost.com" target="_blank" rel="noopener noreferrer">Enkihost</a></h3>
+    <p>Hosting especializado para Jekyll, Ruby on Rails y Sinatra.</p>
+    <ul>
+      <li>Despliegue automático desde repositorios públicos para sitios estáticos (Jekyll).</li>
+      <li>Próximamente: Soporte completo para aplicaciones dinámicas en Ruby (Rails/Sinatra).</li>
+      <li>Enfoque en simplicidad y control total de la infraestructura.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="project-container">
+  <div class="project-image">
     <a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">
       <img src="/assets/images/enkimail-logo.png" alt="Logo de Enkimail">
     </a>
