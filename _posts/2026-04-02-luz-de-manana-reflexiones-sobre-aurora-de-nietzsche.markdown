@@ -8,6 +8,8 @@ tags: [aurora, aforismos, superación, soledad]
 
 *Aurora* (1881) representa uno de los momentos más lúcidos y serenos de Friedrich Nietzsche. En esta obra, el filósofo alemán se convierte en un "explorador subterráneo", un minero que socava los cimientos de la moral establecida para dejar entrar una nueva luz.
 
+<!--more-->
+
 A través de los aforismos capturados en estas lecturas, podemos destilar varios temas fundamentales que siguen resonando con una fuerza implacable.
 
 ## 1. La Soledad como Perspectiva
