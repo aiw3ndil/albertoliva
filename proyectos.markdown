@@ -12,7 +12,7 @@ permalink: /proyectos/
     gap: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
-    border-bottom: 1px dashed var(--terminal-dim);
+    border-bottom: 1px dashed var(--border-color);
   }
   .project-image {
     flex: 1 1 200px;
@@ -20,7 +20,7 @@ permalink: /proyectos/
   .project-image img {
     width: 100%;
     height: auto;
-    border: 1px solid var(--terminal-dim);
+    border: 1px solid var(--border-color);
     filter: grayscale(100%) brightness(0.8) contrast(1.2);
     transition: filter 0.3s ease;
   }
@@ -32,12 +32,11 @@ permalink: /proyectos/
   }
   .project-details h3 a {
     text-decoration: none;
-    color: var(--terminal-text);
-    text-shadow: none; /* Eliminar sombra para máxima nitidez */
+    color: var(--text-primary);
   }
   .project-details h3 a:hover {
-    color: #fff;
-    text-shadow: 0 0 8px var(--terminal-text);
+    color: var(--accent-color);
+    text-decoration: underline;
   }
   @media (max-width: 600px) {
     .project-container {
