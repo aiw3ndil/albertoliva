@@ -51,7 +51,7 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://enkihost.com" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/enkimail-logo.png" alt="Logo de Enkihost" style="opacity: 0.5; filter: grayscale(100%)">
+      <img src="/assets/images/enkihost.png" alt="Captura de pantalla de Enkihost">
     </a>
   </div>
   <div class="project-details">
@@ -68,7 +68,7 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/enkimail-logo.png" alt="Logo de Enkimail">
+      <img src="/assets/images/enkimail.png" alt="Captura de pantalla de Enkimail">
     </a>
   </div>
   <div class="project-details">
@@ -84,7 +84,7 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://jombo.es" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/jombo-logo.png" alt="Logo de Jombo">
+      <img src="/assets/images/jombo.png" alt="Captura de pantalla de Jombo">
     </a>
   </div>
   <div class="project-details">
@@ -100,7 +100,7 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://truek.xyz" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/truek-logo.png" alt="Logo de Truek.xyz">
+      <img src="/assets/images/truek.png" alt="Captura de pantalla de Truek.xyz">
     </a>
   </div>
   <div class="project-details">
