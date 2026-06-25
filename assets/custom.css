@@ -1,0 +1,102 @@
+/* Custom styles to fix layout issues */
+
+/* Site header styling - matches dev.to style */
+.site-header {
+  background-color: var(--header-bg);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 56px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 56px;
+  max-width: 1280px;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+.site-header .wrapper::after {
+  display: none;
+}
+
+.site-title {
+  display: block;
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  float: none !important;
+  line-height: inherit !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  background-color: transparent !important;
+  color: var(--text-primary) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.site-title:hover {
+  background-color: transparent;
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.site-nav {
+  float: none !important;
+  line-height: inherit !important;
+}
+
+.site-nav .menu-icon {
+  display: none !important;
+}
+
+.site-nav .trigger {
+  display: flex !important;
+}
+
+.site-nav .page-link {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+.site-nav .page-link:last-child {
+  margin-right: 0;
+}
+
+.site-nav .page-link:hover {
+  color: var(--accent-color);
+  background-color: rgba(59, 73, 223, 0.1);
+  text-decoration: none;
+}
+
+/* Wrapper - matches dev.to style */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - 30px * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    max-width: -webkit-calc(800px - (30px));
+    max-width: calc(800px - 30px);
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
