@@ -85,6 +85,9 @@ body {
 .site-nav {
   float: none !important; /* Reset minima float */
   line-height: inherit !important;
+  display: flex;
+  align-items: center;
+  gap: 16px;
   
   .menu-icon { display: none !important; }
   
@@ -92,20 +95,25 @@ body {
     display: flex !important;
   }
 
-  .page-link {
-    color: var(--text-secondary);
-    font-weight: 500;
-    font-size: 16px;
-    padding: 8px 12px;
-    border-radius: 6px;
-    margin-right: 8px;
+  .nav-item {
+    display: inline-block;
     
-    &:last-child { margin-right: 0; }
-    
-    &:hover {
-      color: var(--accent-color);
-      background-color: rgba(59, 73, 223, 0.1);
+    a {
+      color: var(--text-secondary);
+      font-weight: 500;
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      margin-right: 8px;
       text-decoration: none;
+      transition: all 0.2s ease;
+      
+      &:last-child { margin-right: 0; }
+      
+      &:hover {
+        color: var(--accent-color);
+        background-color: rgba(59, 73, 223, 0.1);
+      }
     }
   }
 }
