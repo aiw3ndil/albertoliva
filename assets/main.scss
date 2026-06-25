@@ -129,12 +129,21 @@ body {
   
   .site-title {
     margin-bottom: 8px;
+    order: 1;
   }
   
   .site-nav {
     width: 100%;
     justify-content: center;
     gap: 8px;
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-align: center;
+    order: 2;
   }
   
   .site-nav .nav-item {
