@@ -548,9 +548,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 28px !important;
   border-radius: 12px !important;
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.15) !important;
-  display: flex !important;
+  display: none !important;
   align-items: center !important;
   gap: 20px !important;
+
+  &.show {
+    display: flex !important;
+  }
   z-index: 1000 !important;
   width: calc(100% - 32px) !important;
   max-width: 680px !important;
