@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Proyectos
-permalink: /proyectos/
+title: Projects
+permalink: /projects/
 ---
 
 <style>
@@ -45,21 +45,21 @@ permalink: /proyectos/
   }
 </style>
 
-Estos son algunos proyectos que he empezado como hobby.
+These are some projects I have started as a hobby.
 
 <div class="project-container">
   <div class="project-image">
     <a href="https://enkihost.com" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/enkihost.png" alt="Captura de pantalla de Enkihost">
+      <img src="/assets/images/enkihost.png" alt="Enkihost Screenshot">
     </a>
   </div>
   <div class="project-details">
     <h3><a href="https://enkihost.com" target="_blank" rel="noopener noreferrer">Enkihost</a></h3>
-    <p>Hosting especializado para Jekyll, Ruby on Rails y Sinatra.</p>
+    <p>Specialized hosting for Jekyll, Ruby on Rails, and Sinatra.</p>
     <ul>
-      <li>Despliegue automático desde repositorios públicos para sitios estáticos (Jekyll).</li>
-      <li>Próximamente: Soporte completo para aplicaciones dinámicas en Ruby (Rails/Sinatra).</li>
-      <li>Enfoque en simplicidad y control total de la infraestructura.</li>
+      <li>Automatic deployment from public repositories for static sites (Jekyll).</li>
+      <li>Coming soon: Full support for dynamic Ruby applications (Rails/Sinatra).</li>
+      <li>Focused on simplicity and complete infrastructure control.</li>
     </ul>
   </div>
 </div>
@@ -67,15 +67,15 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/enkimail.png" alt="Captura de pantalla de Enkimail">
+      <img src="/assets/images/enkimail.png" alt="Enkimail Screenshot">
     </a>
   </div>
   <div class="project-details">
     <h3><a href="https://enkimail.com" target="_blank" rel="noopener noreferrer">Enkimail</a></h3>
-    <p>Procesador de colas para email marketing enfocado en la simplicidad y entregabilidad.</p>
+    <p>Queue processor for email marketing focused on simplicity and deliverability.</p>
     <ul>
-      <li>Gestión de campañas automatizadas y sistemas de listas de suscriptores.</li>
-      <li>Infraestructura propia con Postfix en Docker y optimización de protocolos de autenticación para máxima llegada a bandeja de entrada.</li>
+      <li>Automated campaign management and subscriber list systems.</li>
+      <li>Self-hosted infrastructure with Postfix on Docker and authentication protocol optimization for maximum inbox deliverability.</li>
     </ul>
   </div>
 </div>
@@ -83,15 +83,15 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://jombo.es" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/jombo.png" alt="Captura de pantalla de Jombo">
+      <img src="/assets/images/jombo.png" alt="Jombo.es Screenshot">
     </a>
   </div>
   <div class="project-details">
     <h3><a href="https://jombo.es" target="_blank" rel="noopener noreferrer">Jombo.es</a></h3>
-    <p>Carpooling ético sin comisiones.</p>
+    <p>Ethical carpooling without commission fees.</p>
     <ul>
-      <li>Plataforma de viaje compartido para facilitar el transporte comunitario de forma directa.</li>
-      <li>Arquitectura basada en API de Ruby y frontend en Next.js alojado en Vercel.</li>
+      <li>Ridesharing platform designed to facilitate direct, community-driven transportation.</li>
+      <li>Architecture built on a Ruby API and a Next.js frontend hosted on Vercel.</li>
     </ul>
   </div>
 </div>
@@ -99,15 +99,15 @@ Estos son algunos proyectos que he empezado como hobby.
 <div class="project-container">
   <div class="project-image">
     <a href="https://truek.xyz" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/truek.png" alt="Captura de pantalla de Truek.xyz">
+      <img src="/assets/images/truek.png" alt="Truek.xyz Screenshot">
     </a>
   </div>
   <div class="project-details">
     <h3><a href="https://truek.xyz" target="_blank" rel="noopener noreferrer">Truek.xyz</a></h3>
-    <p>Plataforma de intercambio de objetos construida con Ruby (API) y Next.js.</p>
+    <p>Item exchange and bartering platform built with Ruby (API) and Next.js.</p>
     <ul>
-      <li>Implementación de lógica de intercambio, perfiles de usuario y sistemas de búsqueda avanzada.</li>
-      <li>Desarrollo ágil mediante Vibe Coding y despliegue automatizado con Coolify.</li>
+      <li>Implementation of trade mechanics, user profiles, and advanced search systems.</li>
+      <li>Agile development via Vibe Coding and automated deployment with Coolify.</li>
     </ul>
   </div>
 </div>

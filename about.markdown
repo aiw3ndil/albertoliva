@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Acerca de mí
+title: About Me
 permalink: /about/
 ---
 ![profile picture](/assets/images/profile.png)
-¡Hola! Soy Albert, desarrollador web, curioso incansable y alguien que decidió comenzar una nueva etapa de su vida en Finlandia.
+Hello! I'm Albert, a web developer, endlessly curious, and someone who decided to start a new chapter of life in Finland.
 
-Llevo muchos años trabajando en tecnología, especialmente en desarrollo web con Ruby on Rails, creando proyectos personales y profesionales que me han acompañado en distintas fases de mi vida. Me gusta aprender, construir y mejorar cosas, ya sean aplicaciones, ideas o hábitos.
+I have spent many years working in technology, especially web development with Ruby on Rails, building personal and professional projects that have accompanied me through different stages of my life. I love learning, building, and refining things—whether applications, ideas, or habits.
 
-Hace un tiempo tomé una decisión importante: dejar atrás mi rutina y empezar desde cero en Finlandia. Vine buscando tranquilidad, nuevas oportunidades y un entorno donde pudiera crecer tanto personal como profesionalmente. Vivir aquí me ha enseñado a moverme a otro ritmo, a disfrutar del silencio, la naturaleza y el proceso de adaptación a un idioma completamente nuevo.
+Some time ago, I made a big decision: to step away from my routine and start from scratch in Finland. I came looking for peace, new opportunities, and an environment where I could grow both personally and professionally. Living here has taught me to move at a different pace, to appreciate silence, nature, and the journey of adapting to an entirely new language.
 
-En este blog quiero compartir parte de ese camino: mis experiencias en Finlandia, mis proyectos, mis intereses —como la programación, el mundo cripto, los videojuegos y la vida cotidiana— y todo lo que voy descubriendo mientras me reinvento lejos de casa.
+On this blog, I want to share part of that journey: my experiences in Finland, my projects, my interests—such as programming, the crypto space, video games, and everyday life—and everything I discover as I reinvent myself far from home.
 
-Si has llegado hasta aquí, gracias por leer. Ojalá este espacio te inspire, te acompañe o simplemente te entretenga. Esto es solo el principio de una aventura que sigo escribiendo día a día.
+If you've made it this far, thank you for reading. I hope this space inspires you, keeps you company, or simply entertains you. This is only the beginning of an adventure I keep writing day by day.

@@ -20,7 +20,7 @@ layout: default
           </a>
         </h3>
         {{ post.excerpt }}
-        <a href="{{ post.url | relative_url }}" class="read-more-link">Leer más &raquo;</a>
+        <a href="{{ post.url | relative_url }}" class="read-more-link">Read more &raquo;</a>
       </li>
       {%- endfor -%}
     </ul>
@@ -28,20 +28,20 @@ layout: default
     <div class="pagination">
       {%- if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-          &laquo; Recientes
+          &laquo; Newer
         </a>
       {%- else %}
-        <span class="previous">&laquo; Recientes</span>
+        <span class="previous">&laquo; Newer</span>
       {%- endif %}
       <span class="page_number ">
-        Página: {{ paginator.page }} de {{ paginator.total_pages }}
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
       </span>
       {%- if paginator.next_page %}
         <a href="{{ paginator.next_page_path | relative_url }}" class="next">
-          Antiguos &raquo;
+          Older &raquo;
         </a>
       {%- else %}
-        <span class="next ">Antiguos &raquo;</span>
+        <span class="next ">Older &raquo;</span>
       {%- endif %}
     </div>
 

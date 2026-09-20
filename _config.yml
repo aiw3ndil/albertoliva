@@ -21,8 +21,8 @@
 title: Albert Oliva
 email: albert.oliva@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog personal donde comparto mi vida en Finlandia, mis experiencias como desarrollador web y mis reflexiones 
-  sobre tecnología, salud, aprendizaje de idiomas y crecimiento personal.
+  Personal blog where I share my life in Finland, my experiences as a web developer, and my reflections 
+  on technology, health, language learning, and personal growth.
 excerpt_separator: "<!--more-->"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://albertoliva.xyz" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ github_username:  aiw3ndil
 google_analytics: G-M30YK111F6
 disqus:
   shortname: albertoliva
-lang: es_ES
+lang: en_US
 
 # SEO settings for jekyll-seo-tag
 seo:
