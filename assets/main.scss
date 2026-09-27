@@ -335,33 +335,147 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid var(--border-color);
   }
   
-  code {
-    background-color: rgba(37, 99, 235, 0.08);
-    color: var(--accent-hover);
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.85em;
-    font-weight: 600;
+  /* Código en línea (inline code) - Siempre claro, limpio y de máximo contraste */
+  code,
+  code.highlighter-rouge,
+  code.language-plaintext,
+  p code,
+  li code,
+  td code {
+    background-color: #f1f5f9 !important;
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    padding: 0.18em 0.45em !important;
+    border-radius: 6px !important;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 0.88em !important;
+    font-weight: 600 !important;
+    border: 1px solid #e2e8f0 !important;
+    box-shadow: none !important;
   }
-  
-  pre {
-    background-color: #0f172a;
-    color: #cbd5e1;
-    padding: 24px;
+
+  /* Tablas elegantes y responsivas */
+  table {
+    width: 100%;
+    margin: 2.2em 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+    border: 1px solid var(--border-color);
+
+    th {
+      background-color: #f8fafc;
+      color: var(--text-primary);
+      font-weight: 700;
+      text-align: left;
+      padding: 12px 18px;
+      border-bottom: 2px solid var(--border-color);
+      font-size: 15px;
+    }
+
+    td {
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-primary);
+      font-size: 15px;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fbfcfe;
+    }
+  }
+
+  /* Solo los BLOQUES de código (div o figure), nunca spans/code en línea */
+  div.highlighter-rouge,
+  figure.highlight {
+    background-color: #0f172a !important;
     border-radius: 10px;
-    overflow-x: auto;
     margin: 2em 0;
     border: 1px solid #1e293b;
-    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
-    
-    code {
-      background: none;
-      padding: 0;
-      color: inherit;
-      font-size: 15px;
-      font-weight: 400;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.18);
+    overflow: hidden;
+
+    .highlight {
+      background-color: transparent !important;
+      background: transparent !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
     }
+  }
+
+  /* Bloques de texto plano (diagramas de carpetas, esquemas ASCII) más suaves y legibles */
+  div.language-plaintext,
+  div.language-text {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+  }
+
+  pre,
+  pre.highlight,
+  div.highlighter-rouge pre,
+  div.highlighter-rouge .highlight pre {
+    background-color: #0f172a !important;
+    background: #0f172a !important;
+    color: #f8fafc !important;
+    padding: 22px 24px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    overflow-x: auto;
+    margin: 0 !important;
+    line-height: 1.6;
+    font-size: 14.5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    /* Barra de desplazamiento sutil para bloques de código */
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+
+    /* Código dentro del bloque pre: reset completo de estilos inline */
+    code,
+    code.highlighter-rouge,
+    code.language-plaintext {
+      background: transparent !important;
+      background-color: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+      color: #f8fafc !important;
+      font-size: 14.5px !important;
+      font-weight: 400 !important;
+      box-shadow: none !important;
+    }
+  }
+
+  /* Resaltado de sintaxis Rouge para fondo oscuro (alto contraste, sin azules oscuros) */
+  .highlight {
+    .c, .c1, .cm, .cs, .cp { color: #94a3b8 !important; font-style: italic; } /* Comentarios en gris claro legible */
+    .k, .kd, .kn, .kp, .kr, .kt, .ow { color: #fb7185 !important; font-weight: 600; } /* Palabras clave en coral/rosa brillante */
+    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: #4ade80 !important; } /* Cadenas en verde menta brillante */
+    .m, .mf, .mh, .mi, .mo, .il, .kc { color: #fb923c !important; } /* Números y constantes en naranja */
+    .na, .nt, .nv, .vi, .vg, .vc { color: #facc15 !important; font-weight: 500; } /* Flags (--format, -m) y tags en amarillo dorado brillante */
+    .nb, .nc, .no { color: #e2e8f0 !important; font-weight: 600; } /* Builtins (cd, source) en blanco/gris claro */
+    .nf, .fm { color: #c084fc !important; font-weight: 600; } /* Funciones en violeta claro */
+    .o, .p { color: #cbd5e1 !important; } /* Operadores y símbolos */
+    .gp { color: #94a3b8 !important; } /* Prompt ($) */
+    .err { color: #fca5a5 !important; background-color: rgba(239, 68, 68, 0.2) !important; }
+    .w { color: #475569 !important; }
   }
 }
 
