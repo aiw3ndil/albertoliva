@@ -550,26 +550,75 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-col-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    gap: 24px;
   }
 }
 
 .footer-col {
-  flex: 1;
-  min-width: 200px;
+  &.footer-col-1 {
+    flex: 0 0 auto;
+    min-width: 180px;
+  }
+
+  &.footer-col-2 {
+    flex: 0 0 auto;
+    min-width: 130px;
+  }
+
+  &.footer-col-3 {
+    flex: 1 1 280px;
+    max-width: 440px;
+  }
 }
 
 .contact-list, .social-media-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 
   li {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--accent-gold);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--accent-purple);
+        text-decoration: underline;
+
+        .svg-icon {
+          fill: var(--accent-purple);
+        }
+      }
+    }
   }
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  display: inline-block;
+  fill: var(--accent-gold);
+  vertical-align: middle;
+  flex-shrink: 0;
+  transition: fill 0.15s ease;
 }
 
 /* Banner de Cookies */
