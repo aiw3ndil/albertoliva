@@ -82,16 +82,16 @@ These are some projects I have started as a hobby.
 
 <div class="project-container">
   <div class="project-image">
-    <a href="https://jombo.es" target="_blank" rel="noopener noreferrer">
+    <a href="https://jombo.fi" target="_blank" rel="noopener noreferrer">
       <img src="/assets/images/jombo.png" alt="Jombo.es Screenshot">
     </a>
   </div>
   <div class="project-details">
-    <h3><a href="https://jombo.es" target="_blank" rel="noopener noreferrer">Jombo.es</a></h3>
+    <h3><a href="https://jombo.fi" target="_blank" rel="noopener noreferrer">Jombo.es</a></h3>
     <p>Ethical carpooling without commission fees.</p>
     <ul>
       <li>Ridesharing platform designed to facilitate direct, community-driven transportation.</li>
-      <li>Architecture built on a Ruby API and a Next.js frontend hosted on Vercel.</li>
+      <li>Architecture built on a Ruby API and a Next.js frontend hosted on Enkihost.</li>
     </ul>
   </div>
 </div>
