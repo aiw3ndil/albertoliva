@@ -126,6 +126,51 @@ enkimail-bounce unix -    n       n       -       -       pipe
 
 Paired with a rule in `transport_regexp` (`/^bounces(\+.*)?@.*$/ enkimail-bounce:`), Postfix captures all bounces sent to the envelope Return-Path. The script parses RFC 3464 headers directly from standard input and fires an immediate webhook to the application to suppress invalid addresses instantly.
 
+#### 4. Delivery Pacing & The "Slow SMTP" Pattern
+
+One of the fastest ways to destroy IP reputation on a self-hosted mail server is burst sending. Destination providers—especially Gmail, Outlook, Yahoo, and iCloud—will aggressively trigger `421 4.7.0` rate limits or greylist your server if they detect multiple simultaneous SMTP connections from an unknown IP.
+
+To prevent bursts, Enkimail enforces a two-tier delivery pacing architecture:
+
+##### Tier 1: Application-Level Throttling (Sidekiq)
+While transactional emails (verification codes, password resets) are dispatched immediately, bulk campaigns are strictly paced:
+
+```ruby
+# sidekiq/campaign_sender_job.rb
+EMAILS_PER_HOUR = 100
+DELAY_PER_EMAIL = 3600 / EMAILS_PER_HOUR # 36 seconds per email
+
+contacts.each_with_index do |contact, index|
+  delay_seconds = index * DELAY_PER_EMAIL
+  SendCampaignEmailJob.perform_in(delay_seconds, contact.email, ...)
+end
+```
+
+By spacing dispatches at **1 email every 36 seconds (100 emails/hour)**, outgoing traffic mimics organic human activity and never triggers sudden volumetric spam thresholds.
+
+##### Tier 2: Postfix Destination Throttling (`slow-smtp`)
+Even when emails land in the Postfix queue, outbound SMTP concurrency must be reined in. In Postfix's `transport` table, major providers are mapped to a dedicated `slow-smtp` service:
+
+```text
+# /etc/postfix/transport
+gmail.com         slow-smtp:
+googlemail.com    slow-smtp:
+outlook.com       slow-smtp:
+hotmail.com       slow-smtp:
+yahoo.com         slow-smtp:
+icloud.com        slow-smtp:
+```
+
+Configured with strict throttling parameters in `main.cf`:
+
+```ini
+# /etc/postfix/main.cf
+slow-smtp_destination_rate_delay = 12s
+slow-smtp_destination_concurrency_limit = 1
+```
+
+This guarantees Postfix will **never open more than 1 concurrent connection** to any major provider and enforces a mandatory **12-second delay** between successive messages to the same destination MX.
+
 ---
 
 ### Deliverability Traps & DNS Records
