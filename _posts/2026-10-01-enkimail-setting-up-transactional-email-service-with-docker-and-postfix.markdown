@@ -7,7 +7,7 @@ categories: [technology, development, self-hosting, email]
 
 Ever since I started building independent web apps and side projects, reliable email delivery has been a quiet, lingering headache. When you launch a new service, you need transactional emails immediately: account verifications, password resets, order notifications, and status alerts. The conventional advice is always the same: *"Just plug in SendGrid, Mailgun, or Resend."*
 
-In January 2026, while building the foundation for **Enkimail**, I decided to take the opposite route: setting up and hosting my own dedicated transactional mail server from scratch using Docker, Postfix, and Dovecot. Everyone asked why I would take on the deliverability baggage of mail servers in 2026. The reality? Self-hosting gives you complete architectural control, zero per-email pricing, and a crystal-clear understanding of mail deliverability that SaaS platforms keep hidden behind black boxes.
+In January 2026, while building the foundation for **Enkimail**, I decided to take the opposite route: setting up and hosting my own dedicated transactional mail server from scratch using Docker and Postfix. Everyone asked why I would take on the deliverability baggage of mail servers in 2026. The reality? Self-hosting gives you complete architectural control, zero per-email pricing, and a crystal-clear understanding of mail deliverability that SaaS platforms keep hidden behind black boxes.
 
 <!--more-->
 
@@ -29,7 +29,7 @@ For an indie developer or small product studio, commercial email APIs seem gener
 Email delivery requires several moving parts working in harmony. To keep things modular, reproducible, and easy to redeploy, I containerized the entire stack:
 
 1. **Postfix (MTA):** The core engine handling outbound SMTP delivery, routing, and TLS encryption.
-2. **Dovecot:** Handles local mailbox storage and IMAP/POP3 protocols for receiving bounces and incoming responses.
+2. **Inbound Pipe & Bounce Handler:** Instead of heavy IMAP/POP3 mailboxes like Dovecot, Postfix pipes incoming bounce envelopes directly to a custom Python parser and internal webhook in real time.
 3. **Redis:** Manages rate limiting, delivery queues, and transient state to prevent bursts that could trigger spam filters.
 4. **Let's Encrypt:** Automated TLS certificates for encrypted connections between servers (`STARTTLS`).
 5. **DNS Authentication Suite:** Strictly configured SPF, DKIM (2048-bit), and DMARC records to establish domain legitimacy.
@@ -50,8 +50,6 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y \
     postfix \
     redis-tools \
-    dovecot-core \
-    dovecot-imapd \
     libsasl2-modules \
     mailutils \
     && rm -rf /var/lib/apt/lists/*
@@ -115,6 +113,18 @@ volumes:
   mail_spool:
   redis_data:
 ```
+
+#### 3. Real-Time Bounce Handling via Pipe
+
+Instead of maintaining an IMAP server (like Dovecot) and polling a mailbox for delivery failures, Postfix routes asynchronous bounce notifications (DSNs) directly to an internal script via the `pipe` delivery agent in `master.cf`:
+
+```text
+# master.cf
+enkimail-bounce unix -    n       n       -       -       pipe
+  flags=Fq user=nobody argv=/usr/local/bin/enkimail-bounce-handler.py
+```
+
+Paired with a rule in `transport_regexp` (`/^bounces(\+.*)?@.*$/ enkimail-bounce:`), Postfix captures all bounces sent to the envelope Return-Path. The script parses RFC 3464 headers directly from standard input and fires an immediate webhook to the application to suppress invalid addresses instantly.
 
 ---
 
